@@ -1,3 +1,4 @@
+### 批量解压提取dylib请使用 [MDeb](https://github.com/Mieing/MDeb)
 ```
 cd /var/mobile/Documents
 ```
