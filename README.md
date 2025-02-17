@@ -1,4 +1,6 @@
-### 使用NewTerm或ssh连接进入/var/mobile/Documents或当前目录。
+### 前提
+安装injectipa
+### 使用NewTerm或openssh连接进入/var/mobile/Documents或当前目录
 ```
 cd /var/mobile/Documents
 ```
@@ -23,4 +25,9 @@ chmod +x ./injectipa.sh
 
 - 将需注入ipa文件放入```./ipa```文件夹，再次运行```./injectipa.sh```
 
+
 - 批量解压提取dylib： [MDeb](https://github.com/Mieing/MDeb)
+### 添加越狱源
+- [NewTerm Beta3](https://repo.chariz.com/)
+- [openssh](https://apt.procurs.us/dists/1900)
+- [injectipa](https://xiangfeidexiaohuo.github.io/)
